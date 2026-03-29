@@ -25,7 +25,7 @@ const client = new Client({
 });
 
 const PREFIX = process.env.PREFIX || '!';
-const COLOR = 0x457a49;
+const COLOR = 0xff0000; // red
 
 const TICKET_CATEGORY_ID = process.env.TICKET_CATEGORY_ID;
 const LOG_CHANNEL_ID = process.env.LOG_CHANNEL_ID;
